@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  height: 700px;
+  flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+display: flex;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+}
+
+
+
+.gameboard{
+    display: grid;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+
+}
+
+.gameboard div{
+    display: grid;
+    padding: 4px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
